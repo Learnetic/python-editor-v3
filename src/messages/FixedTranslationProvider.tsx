@@ -5,7 +5,7 @@
  */
 import { ReactNode } from "react";
 import { IntlProvider } from "react-intl";
-import en from "./ui.en.json";
+import pl from "./ui.pl.json";
 
 interface FixedTranslationProviderProps {
   children: ReactNode;
@@ -21,7 +21,7 @@ const FixedTranslationProvider = ({
   children,
 }: FixedTranslationProviderProps) => {
   return (
-    <IntlProvider locale="en" defaultLocale="en" messages={en}>
+    <IntlProvider locale="pl" defaultLocale="pl" messages={pl}>
       {children}
     </IntlProvider>
   );

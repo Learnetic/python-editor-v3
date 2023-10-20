@@ -67,6 +67,11 @@ const allLanguages: Language[] = [
     name: "Español",
     enName: "Spanish",
   },
+  {
+    id: 'pl',
+    name: 'Polski',
+    enName: 'Polish'
+  }
 ];
 export const supportedLanguages: Language[] = allLanguages.filter(
   (l) => stage !== "PRODUCTION" || !l.preview

@@ -28,6 +28,8 @@ async function loadLocaleData(locale: string) {
       return (await import("./ui.zh-cn.json")).default;
     case "zh-tw":
       return (await import("./ui.zh-tw.json")).default;
+    case "pl":
+      return (await import('./ui.pl.json')).default;
     default:
       return (await import("./ui.en.json")).default;
   }
@@ -45,6 +47,7 @@ interface TranslationProviderProps {
 const TranslationProvider = ({ children }: TranslationProviderProps) => {
   const [{ languageId }] = useSettings();
   // If the messages are for a different language (or missing) then reload them
+  console.log(languageId);
   const [messages, setMessages] = useState<Messages | undefined>();
   useEffect(() => {
     const load = async () => {
@@ -53,7 +56,7 @@ const TranslationProvider = ({ children }: TranslationProviderProps) => {
     load();
   }, [languageId]);
   return messages ? (
-    <IntlProvider locale={languageId} defaultLocale="en" messages={messages}>
+    <IntlProvider locale={languageId} defaultLocale="pl" messages={messages}>
       {children}
     </IntlProvider>
   ) : null;
