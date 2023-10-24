@@ -1,0 +1,2516 @@
+{
+  "about": [
+    {
+      "type": 0,
+      "value": "O"
+    }
+  ],
+  "about-comic": [
+    {
+      "type": 0,
+      "value": "Three panel comic titled \"MicroPython Rocks\" by Mike Rowbit. A cartoon snake introduces Damien, saying \"Meet Damien... He created MicroPython.\". Two snakes discuss MicroPython. The yellow snake says \"MicroPython is designed to work on very small computers.\" \"Like your BBC micro:bit\" the purple snake replies.\" The yellows snake continues \"But Python can run anywhere.\". The purple snake agrees, saying \"Like on this rack of servers that run huge websites\". The background behind the snakes shows a server rack."
+    }
+  ],
+  "about-microbit": [
+    {
+      "type": 0,
+      "value": "Stworzone z miłością przez"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Fundacja Edukacyjna Micro:bit i współpracownicy"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    }
+  ],
+  "about-micropython": [
+    {
+      "type": 0,
+      "value": "Redaktor zależy od"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "MikroPyton"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": " który jest tworzony przez Damiena George'a i społeczność programistów z całego świata."
+    }
+  ],
+  "about-read-less-micropython": [
+    {
+      "type": 0,
+      "value": "Przeczytaj mniej o MicroPythonie"
+    }
+  ],
+  "about-read-more-micropython": [
+    {
+      "type": 0,
+      "value": "Przeczytaj więcej o MicroPythonie"
+    }
+  ],
+  "added-change": [
+    {
+      "type": 0,
+      "value": "Dodano plik"
+    },
+    {
+      "type": 1,
+      "value": "Zmień nazwę"
+    }
+  ],
+  "api-description": [
+    {
+      "type": 0,
+      "value": "Aby zapoznać się z użyciem i przykładami, zobacz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Odniesienie"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    }
+  ],
+  "api-tab": [
+    {
+      "type": 0,
+      "value": "API"
+    }
+  ],
+  "apidocs-baseclass": [
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "klasa bazowa"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "klasy bazowe:"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "liczba bazowaKlasy"
+    }
+  ],
+  "apidocs-classes": [
+    {
+      "type": 0,
+      "value": "Zajęcia"
+    }
+  ],
+  "apidocs-fields": [
+    {
+      "type": 0,
+      "value": "Pola"
+    }
+  ],
+  "apidocs-functions": [
+    {
+      "type": 0,
+      "value": "Funkcje"
+    }
+  ],
+  "apidocs-methods": [
+    {
+      "type": 0,
+      "value": "Metody"
+    }
+  ],
+  "back-action": [
+    {
+      "type": 0,
+      "value": "Z powrotem"
+    }
+  ],
+  "back-to-main": [
+    {
+      "type": 0,
+      "value": "wróć do głównego kodu"
+    }
+  ],
+  "cancel-action": [
+    {
+      "type": 0,
+      "value": "Anulować"
+    }
+  ],
+  "change-files": [
+    {
+      "type": 0,
+      "value": "Zmienić pliki?"
+    }
+  ],
+  "choose-main-add-file": [
+    {
+      "type": 0,
+      "value": "Dodaj plik"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    }
+  ],
+  "choose-main-add-module": [
+    {
+      "type": 0,
+      "value": "Dodaj moduł"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    }
+  ],
+  "choose-main-replace-file": [
+    {
+      "type": 0,
+      "value": "Zastąpić plik"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    }
+  ],
+  "choose-main-replace-module": [
+    {
+      "type": 0,
+      "value": "Wymień moduł"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    }
+  ],
+  "choose-main-source-add-file": [
+    {
+      "type": 0,
+      "value": "Dodaj plik"
+    },
+    {
+      "type": 1,
+      "value": "cel"
+    },
+    {
+      "type": 0,
+      "value": " z"
+    },
+    {
+      "type": 1,
+      "value": "źródło"
+    }
+  ],
+  "choose-main-source-add-main-code": [
+    {
+      "type": 0,
+      "value": "Dodaj główny kod z"
+    },
+    {
+      "type": 1,
+      "value": "źródło"
+    }
+  ],
+  "choose-main-source-replace-file": [
+    {
+      "type": 0,
+      "value": "Zastąpić plik"
+    },
+    {
+      "type": 1,
+      "value": "cel"
+    },
+    {
+      "type": 0,
+      "value": " z"
+    },
+    {
+      "type": 1,
+      "value": "źródło"
+    }
+  ],
+  "choose-main-source-replace-main-code": [
+    {
+      "type": 0,
+      "value": "Zamień kod główny na"
+    },
+    {
+      "type": 1,
+      "value": "źródło"
+    }
+  ],
+  "clear": [
+    {
+      "type": 0,
+      "value": "Jasne"
+    }
+  ],
+  "close-action": [
+    {
+      "type": 0,
+      "value": "Zamknąć"
+    }
+  ],
+  "code-editor": [
+    {
+      "type": 0,
+      "value": "Edytor kodu"
+    }
+  ],
+  "code-example": [
+    {
+      "type": 0,
+      "value": "Przykład kodu:"
+    }
+  ],
+  "confirm-action": [
+    {
+      "type": 0,
+      "value": "Potwierdzać"
+    }
+  ],
+  "confirm-delete": [
+    {
+      "type": 0,
+      "value": "Potwierdź usunięcie"
+    }
+  ],
+  "confirm-replace-body": [
+    {
+      "type": 0,
+      "value": "Zamienić wszystkie pliki na te w szesnastce?"
+    }
+  ],
+  "confirm-replace-reset": [
+    {
+      "type": 0,
+      "value": "Zastąpić wszystkie pliki domyślnym kodem startowym?"
+    }
+  ],
+  "confirm-replace-title": [
+    {
+      "type": 0,
+      "value": "Potwierdź zamianę projektu"
+    }
+  ],
+  "confirm-replace-with-idea": [
+    {
+      "type": 0,
+      "value": "Zamień wszystkie pliki na"
+    },
+    {
+      "type": 1,
+      "value": "Nazwa pomysłu"
+    },
+    {
+      "type": 0,
+      "value": "?"
+    }
+  ],
+  "confirm-save-action": [
+    {
+      "type": 0,
+      "value": "Potwierdź i zapisz"
+    }
+  ],
+  "confirm-save-hint": [
+    {
+      "type": 0,
+      "value": "Anuluj, a następnie użyj opcji Zapisz, aby zachować kopię projektu."
+    }
+  ],
+  "connect-action": [
+    {
+      "type": 0,
+      "value": "Łączyć"
+    }
+  ],
+  "connect-cable-title": [
+    {
+      "type": 0,
+      "value": "Podłącz kabel"
+    }
+  ],
+  "connect-help-alt": [
+    {
+      "type": 0,
+      "value": "Okno dialogowe połączenia WebUSB z wpisem BBC micro:bit oznaczonym 1 i przyciskiem Połącz oznaczonym 2"
+    }
+  ],
+  "connect-help-message": [
+    {
+      "type": 0,
+      "value": "W następnym wyskakującym okienku:"
+    }
+  ],
+  "connect-help-one": [
+    {
+      "type": 0,
+      "value": "Wybierz swój micro:bit"
+    }
+  ],
+  "connect-help-title": [
+    {
+      "type": 0,
+      "value": "Wybierz mikro:bit"
+    }
+  ],
+  "connect-help-two": [
+    {
+      "type": 0,
+      "value": "Wybierz „Połącz”"
+    }
+  ],
+  "connect-hover": [
+    {
+      "type": 0,
+      "value": "Połącz się z micro:bit przez WebUSB"
+    }
+  ],
+  "connect-microbit": [
+    {
+      "type": 0,
+      "value": "Połącz się ze swoim micro:bit, aby zobaczyć tutaj wyjście szeregowe"
+    }
+  ],
+  "connect-troubleshoot": [
+    {
+      "type": 0,
+      "value": "Rozwiąż problemy z połączeniem z micro:bit"
+    }
+  ],
+  "content-load-error": [
+    {
+      "type": 0,
+      "value": "Coś poszło nie tak. Pobierz plik szesnastkowy w celu bezpiecznego przechowywania, a następnie odśwież stronę, aby załadować ponownie."
+    }
+  ],
+  "cookies-action": [
+    {
+      "type": 0,
+      "value": "Ciasteczka"
+    }
+  ],
+  "copied": [
+    {
+      "type": 0,
+      "value": "Skopiowano"
+    }
+  ],
+  "copy-action": [
+    {
+      "type": 0,
+      "value": "Kopiuj"
+    }
+  ],
+  "copy-code-action": [
+    {
+      "type": 0,
+      "value": "Skopiuj kod"
+    }
+  ],
+  "create-action": [
+    {
+      "type": 0,
+      "value": "Tworzyć"
+    }
+  ],
+  "create-file-action": [
+    {
+      "type": 0,
+      "value": "Utwórz plik"
+    }
+  ],
+  "create-python": [
+    {
+      "type": 0,
+      "value": "Utwórz nowy plik Pythona w tym projekcie"
+    }
+  ],
+  "created-file": [
+    {
+      "type": 0,
+      "value": "Utworzony"
+    },
+    {
+      "type": 1,
+      "value": "Nazwa pliku"
+    }
+  ],
+  "delete-action": [
+    {
+      "type": 0,
+      "value": "Usuwać"
+    }
+  ],
+  "delete-file-action": [
+    {
+      "type": 0,
+      "value": "Usuwać"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    }
+  ],
+  "deleted-file": [
+    {
+      "type": 0,
+      "value": "Usunięto"
+    },
+    {
+      "type": 1,
+      "value": "Nazwa pliku"
+    }
+  ],
+  "disconnect-action": [
+    {
+      "type": 0,
+      "value": "Rozłączyć się"
+    }
+  ],
+  "disconnect-hover": [
+    {
+      "type": 0,
+      "value": "Odłącz od micro:bit"
+    }
+  ],
+  "dont-show-again": [
+    {
+      "type": 0,
+      "value": "Nie pokazuj tego więcej"
+    }
+  ],
+  "drag-hover": [
+    {
+      "type": 0,
+      "value": "Przeciągnij i upuść"
+    }
+  ],
+  "edit-file-action": [
+    {
+      "type": 0,
+      "value": "Edytować"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    }
+  ],
+  "edit-name-project-hover": [
+    {
+      "type": 0,
+      "value": "Edytuj nazwę swojego projektu"
+    }
+  ],
+  "edit-project-name-action": [
+    {
+      "type": 0,
+      "value": "Edytuj nazwę projektu"
+    }
+  ],
+  "failed-to-build-hex": [
+    {
+      "type": 0,
+      "value": "Nie udało się zbudować pliku szesnastkowego"
+    }
+  ],
+  "feedback": [
+    {
+      "type": 0,
+      "value": "Informacja zwrotna"
+    }
+  ],
+  "file-actions": [
+    {
+      "type": 1,
+      "value": "nazwa"
+    },
+    {
+      "type": 0,
+      "value": " akcje plików"
+    }
+  ],
+  "file-already-exists": [
+    {
+      "type": 0,
+      "value": "Ten plik już istnieje"
+    }
+  ],
+  "file-name-invalid-character": [
+    {
+      "type": 0,
+      "value": "Nazwa zawiera nieprawidłowy znak:"
+    },
+    {
+      "type": 1,
+      "value": "nieważny"
+    }
+  ],
+  "file-name-length": [
+    {
+      "type": 0,
+      "value": "Nazwa jest za długa"
+    }
+  ],
+  "file-name-lowercase-only": [
+    {
+      "type": 0,
+      "value": "Imię powinno być pisane małymi literami"
+    }
+  ],
+  "file-name-not-empty": [
+    {
+      "type": 0,
+      "value": "Nazwa nie może być pusta"
+    }
+  ],
+  "file-name-start-number": [
+    {
+      "type": 0,
+      "value": "Nazwa nie może zaczynać się od cyfry"
+    }
+  ],
+  "file-name-whitespace": [
+    {
+      "type": 0,
+      "value": "Nazwa nie może zawierać spacji"
+    }
+  ],
+  "firmware-update-link": [
+    {
+      "type": 0,
+      "value": "Musisz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zaktualizuj oprogramowanie sprzętowe"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": " zanim będziesz mógł połączyć się z tym micro:bit."
+    }
+  ],
+  "firmware-update-message": [
+    {
+      "type": 0,
+      "value": "Połączenie z micro:bit nie powiodło się, ponieważ oprogramowanie sprzętowe micro:bit jest zbyt stare."
+    }
+  ],
+  "firmware-update-title": [
+    {
+      "type": 0,
+      "value": "Wymagana aktualizacja oprogramowania sprzętowego"
+    }
+  ],
+  "flash-action": [
+    {
+      "type": 0,
+      "value": "Błysk"
+    }
+  ],
+  "flash-hover": [
+    {
+      "type": 0,
+      "value": "Wgraj projekt bezpośrednio do micro:bit"
+    }
+  ],
+  "flashing-code": [
+    {
+      "type": 0,
+      "value": "Kod wysyłania (miga)"
+    }
+  ],
+  "flashing-full-flash-detail": [
+    {
+      "type": 0,
+      "value": "Twój kod jest wysyłany (flashowany) do Twojego micro:bit. Za pierwszym razem może to zająć trochę czasu, ale później będzie szybciej."
+    }
+  ],
+  "flashing-micropython": [
+    {
+      "type": 0,
+      "value": "Flashowanie MicroPythona"
+    }
+  ],
+  "font-size": [
+    {
+      "type": 0,
+      "value": "Rozmiar czcionki"
+    }
+  ],
+  "guide-link": [
+    {
+      "type": 0,
+      "value": "Aby uzyskać więcej wsparcia, zobacz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Przewodnik po edytorze Pythona"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    }
+  ],
+  "help": [
+    {
+      "type": 0,
+      "value": "Pomoc"
+    }
+  ],
+  "help-support": [
+    {
+      "type": 0,
+      "value": "Pomoc wsparcie"
+    }
+  ],
+  "help-translate": [
+    {
+      "type": 0,
+      "value": "Pomóż przetłumaczyć"
+    }
+  ],
+  "highlight-code-structure": [
+    {
+      "type": 0,
+      "value": "Podświetl strukturę kodu"
+    }
+  ],
+  "highlight-code-structure-full": [
+    {
+      "type": 0,
+      "value": "Pełny"
+    }
+  ],
+  "highlight-code-structure-none": [
+    {
+      "type": 0,
+      "value": "Nic"
+    }
+  ],
+  "highlight-code-structure-simple": [
+    {
+      "type": 0,
+      "value": "Prosty"
+    }
+  ],
+  "ideas-tab": [
+    {
+      "type": 0,
+      "value": "Pomysły"
+    }
+  ],
+  "ideas-tab-description": [
+    {
+      "type": 0,
+      "value": "Wypróbuj te projekty, zmodyfikuj je i zainspiruj się"
+    }
+  ],
+  "insert-code-action": [
+    {
+      "type": 0,
+      "value": "Wprowadź kod"
+    }
+  ],
+  "language": [
+    {
+      "type": 0,
+      "value": "Język"
+    }
+  ],
+  "less-action": [
+    {
+      "type": 0,
+      "value": "Mniej"
+    }
+  ],
+  "load-error-makecode-info": [
+    {
+      "type": 0,
+      "value": "Tego pliku szesnastkowego nie można załadować do edytora Pythona. Edytor języka Python nie może otwierać plików szesnastkowych utworzonych za pomocą programu Microsoft MakeCode."
+    }
+  ],
+  "load-error-makecode-link": [
+    {
+      "type": 0,
+      "value": "Proszę odwiedź"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "https://makecode.microbit.org/"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": " aby użyć tego pliku szesnastkowego."
+    }
+  ],
+  "load-error-mixed": [
+    {
+      "type": 0,
+      "value": "Plik szesnastkowy można załadować tylko samodzielnie. Zastępuje wszystkie pliki w projekcie."
+    }
+  ],
+  "load-error-mpy": [
+    {
+      "type": 0,
+      "value": "Ta wersja edytora języka Python nie obsługuje obecnie dodawania plików .mpy."
+    }
+  ],
+  "load-error-title": [
+    {
+      "type": 0,
+      "value": "Nie może załadować"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "one": {
+          "value": [
+            {
+              "type": 0,
+              "value": "plik"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 0,
+              "value": "akta"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "liczba plików"
+    }
+  ],
+  "loaded-file-feedback": [
+    {
+      "type": 0,
+      "value": "Załadowany"
+    },
+    {
+      "type": 1,
+      "value": "Nazwa pliku"
+    }
+  ],
+  "loading": [
+    {
+      "type": 0,
+      "value": "Ładowanie…"
+    }
+  ],
+  "microbit-hearts-alt": [
+    {
+      "type": 0,
+      "value": "płytka micro:bit z siatką LED 5 na 5 przedstawiającą serce"
+    }
+  ],
+  "micropython-documentation": [
+    {
+      "type": 0,
+      "value": "Dokumentacja MicroPythona"
+    }
+  ],
+  "micropython-history": [
+    {
+      "type": 0,
+      "value": "Dowiedz się, jak powstał MicroPython na micro:bit"
+    }
+  ],
+  "micropython-source-code": [
+    {
+      "type": 0,
+      "value": "MikroPyton"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "kod źródłowy micro:bit V1"
+        }
+      ],
+      "type": 8,
+      "value": "linkV1"
+    },
+    {
+      "type": 0,
+      "value": " I"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "mikro:bit V2"
+        }
+      ],
+      "type": 8,
+      "value": "linkV2"
+    }
+  ],
+  "more-action": [
+    {
+      "type": 0,
+      "value": "Więcej"
+    }
+  ],
+  "more-connect-options": [
+    {
+      "type": 0,
+      "value": "Więcej opcji połączenia"
+    }
+  ],
+  "more-ideas": [
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Więcej pomysłów"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    }
+  ],
+  "more-save-options": [
+    {
+      "type": 0,
+      "value": "Więcej opcji zapisywania"
+    }
+  ],
+  "multiple-files-message-one": [
+    {
+      "type": 0,
+      "value": "Ten projekt zawiera"
+    },
+    {
+      "offset": 0,
+      "options": {
+        "other": {
+          "value": [
+            {
+              "type": 1,
+              "value": "liczba plików"
+            },
+            {
+              "type": 0,
+              "value": " akta"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "liczba plików"
+    },
+    {
+      "type": 0,
+      "value": " lecz tylko"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "main.py"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " został pobrany."
+    }
+  ],
+  "multiple-files-message-two": [
+    {
+      "type": 0,
+      "value": "Użyj"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Ratować"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " przycisk, aby pobrać cały projekt jako plik szesnastkowy. Możesz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "otwarty"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " plik hex, aby przywrócić projekt. Jeśli wolisz pobierać pojedyncze pliki Pythona, użyj rozszerzenia"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Projekt"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " patka."
+    }
+  ],
+  "multiple-files-title": [
+    {
+      "type": 0,
+      "value": "Ostrzeżenie: pobrano tylko plik main.py"
+    }
+  ],
+  "name-project": [
+    {
+      "type": 0,
+      "value": "Nazwij swój projekt"
+    }
+  ],
+  "name-text": [
+    {
+      "type": 0,
+      "value": "Nazwa"
+    }
+  ],
+  "name-used-when": [
+    {
+      "type": 0,
+      "value": "Nazwa jest używana podczas zapisywania pliku."
+    }
+  ],
+  "new-file-hint": [
+    {
+      "type": 0,
+      "value": "Dodamy"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": ".py"
+        }
+      ],
+      "type": 8,
+      "value": "kod"
+    },
+    {
+      "type": 0,
+      "value": " rozszerzenie dla Ciebie."
+    }
+  ],
+  "next-action": [
+    {
+      "type": 0,
+      "value": "Następny"
+    }
+  ],
+  "not-found-checklist-one": [
+    {
+      "type": 0,
+      "value": "Czy Twój"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "micro:bit podłączony"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": "? Czy ty"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "wykonaj następujące kroki"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": "?"
+    }
+  ],
+  "not-found-checklist-two": [
+    {
+      "type": 0,
+      "value": "Jeśli masz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "mikro:bit V1"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " może będziesz musiał"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zaktualizować oprogramowanie sprzętowe"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    }
+  ],
+  "not-found-message": [
+    {
+      "type": 0,
+      "value": "Nie wybrałeś micro:bit lub wystąpił problem z połączeniem się z nim."
+    }
+  ],
+  "not-found-save-message": [
+    {
+      "type": 0,
+      "value": "Metoda alternatywna: wybierz Zapisz, a następnie postępuj zgodnie z instrukcjami, aby przenieść"
+    }
+  ],
+  "not-found-title": [
+    {
+      "type": 0,
+      "value": "Nie znaleziono mikro:bitu"
+    }
+  ],
+  "not-found-update-link": [
+    {
+      "type": 0,
+      "value": "Musisz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "wcześniej zaktualizuj oprogramowanie sprzętowe"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": " możesz połączyć się z tym micro:bit."
+    }
+  ],
+  "open-action": [
+    {
+      "type": 0,
+      "value": "otwarty"
+    }
+  ],
+  "open-file-action": [
+    {
+      "type": 0,
+      "value": "Otwarty…"
+    }
+  ],
+  "open-file-dropped": [
+    {
+      "type": 0,
+      "value": "Otwórz plik po upuszczeniu"
+    }
+  ],
+  "open-hover": [
+    {
+      "type": 0,
+      "value": "Otwórz plik szesnastkowy lub plik Pythona albo dodaj inne pliki"
+    }
+  ],
+  "options": [
+    {
+      "type": 0,
+      "value": "Opcje"
+    }
+  ],
+  "parameter-help": [
+    {
+      "type": 0,
+      "value": "Pomoc dotycząca parametrów"
+    }
+  ],
+  "parameter-help-automatic": [
+    {
+      "type": 0,
+      "value": "Automatyczny"
+    }
+  ],
+  "parameter-help-manual": [
+    {
+      "type": 0,
+      "value": "Podręcznik ("
+    },
+    {
+      "type": 1,
+      "value": "skrót"
+    },
+    {
+      "type": 0,
+      "value": ")"
+    }
+  ],
+  "permanently-delete": [
+    {
+      "type": 0,
+      "value": "Usuń trwale"
+    },
+    {
+      "type": 1,
+      "value": "Nazwa pliku"
+    },
+    {
+      "type": 0,
+      "value": "?"
+    }
+  ],
+  "post-save-message-files": [
+    {
+      "type": 0,
+      "value": "Zawiera wszystkie pliki w tym projekcie (w tym wszelkie dodatkowe pliki, np. do uruchamiania akcesoriów, wymienione w pliku"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Projekt"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " patka)."
+    }
+  ],
+  "post-save-message-one": [
+    {
+      "type": 0,
+      "value": "Znajdziesz swój plik szesnastkowy na tym komputerze"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Pliki do pobrania"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " teczka."
+    }
+  ],
+  "post-save-message-two": [
+    {
+      "type": 0,
+      "value": "Możesz przenieść go do innego folderu w celu przechowywania i użycia"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "otwarty"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " aby kontynuować edycję później."
+    }
+  ],
+  "post-save-title": [
+    {
+      "type": 0,
+      "value": "Projekt zapisany"
+    }
+  ],
+  "post-save-transfer-hex": [
+    {
+      "type": 0,
+      "value": "Aby uruchomić ten plik szesnastkowy na swoim micro:bit"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "wykonaj następujące kroki"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "project-actions": [
+    {
+      "type": 0,
+      "value": "Działania projektowe"
+    }
+  ],
+  "project-header": [
+    {
+      "type": 0,
+      "value": "Nagłówek projektu"
+    }
+  ],
+  "project-name": [
+    {
+      "type": 0,
+      "value": "Nazwa Projektu"
+    }
+  ],
+  "project-name-not-empty": [
+    {
+      "type": 0,
+      "value": "Nazwa projektu nie może być pusta"
+    }
+  ],
+  "project-tab": [
+    {
+      "type": 0,
+      "value": "Projekt"
+    }
+  ],
+  "project-tab-description": [
+    {
+      "type": 0,
+      "value": "Przeglądaj, twórz, dodawaj i edytuj pliki w swoim projekcie"
+    }
+  ],
+  "python-powered": [
+    {
+      "type": 0,
+      "value": "Obsługiwany przez Pythona"
+    }
+  ],
+  "python-tab": [
+    {
+      "type": 0,
+      "value": "Pyton"
+    }
+  ],
+  "quit-anyway": [
+    {
+      "type": 0,
+      "value": "Niektóre zmiany nie zostały zapisane. Mimo to zrezygnować?"
+    }
+  ],
+  "read-less": [
+    {
+      "type": 0,
+      "value": "Mniej czytać"
+    }
+  ],
+  "read-more": [
+    {
+      "type": 0,
+      "value": "Czytaj więcej"
+    }
+  ],
+  "redo": [
+    {
+      "type": 0,
+      "value": "Przerobić"
+    }
+  ],
+  "reference-tab": [
+    {
+      "type": 0,
+      "value": "Odniesienie"
+    }
+  ],
+  "replace-action-label": [
+    {
+      "type": 0,
+      "value": "Zastępować"
+    }
+  ],
+  "reset-project-action": [
+    {
+      "type": 0,
+      "value": "Zresetuj projekt"
+    }
+  ],
+  "reset-project-feedback": [
+    {
+      "type": 0,
+      "value": "Projekt zresetowany do domyślnego kodu startowego"
+    }
+  ],
+  "reset-project-hover": [
+    {
+      "type": 0,
+      "value": "Resetuje projekt do domyślnego kodu startowego, odrzucając Twoją pracę"
+    }
+  ],
+  "results-count": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Brak wyników"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " wynik"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " wyniki"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "liczyć"
+    }
+  ],
+  "save-action": [
+    {
+      "type": 0,
+      "value": "Ratować"
+    }
+  ],
+  "save-file-action": [
+    {
+      "type": 0,
+      "value": "Ratować"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    }
+  ],
+  "save-hex-action": [
+    {
+      "type": 0,
+      "value": "Zapisz projekt w formacie szesnastkowym"
+    }
+  ],
+  "save-hover": [
+    {
+      "type": 0,
+      "value": "Zapisz plik szesnastkowy projektu na swoim komputerze"
+    }
+  ],
+  "save-python-action": [
+    {
+      "type": 0,
+      "value": "Zapisz skrypt Pythona"
+    }
+  ],
+  "search": [
+    {
+      "type": 0,
+      "value": "Szukaj"
+    }
+  ],
+  "send-action": [
+    {
+      "type": 0,
+      "value": "Wyślij do micro:bit"
+    }
+  ],
+  "send-hover": [
+    {
+      "type": 0,
+      "value": "Połącz się przez WebUSB, a następnie wgraj kod na micro:bit"
+    }
+  ],
+  "serial-collapse": [
+    {
+      "type": 0,
+      "value": "Ukryj serial"
+    }
+  ],
+  "serial-ctrl-c-action": [
+    {
+      "type": 0,
+      "value": "Wyślij Ctrl+C dla REPL"
+    }
+  ],
+  "serial-ctrl-d-action": [
+    {
+      "type": 0,
+      "value": "Wyślij Ctrl+D, aby zresetować"
+    }
+  ],
+  "serial-expand": [
+    {
+      "type": 0,
+      "value": "Pokaż serial"
+    }
+  ],
+  "serial-flashed": [
+    {
+      "type": 0,
+      "value": "micro:bit błysnęło"
+    }
+  ],
+  "serial-help-ctrl-c": [
+    {
+      "type": 0,
+      "value": "Użyj skrótu klawiaturowego"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "klawisz kontrolny"
+        }
+      ],
+      "type": 8,
+      "value": "kbd"
+    },
+    {
+      "type": 0,
+      "value": " +"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "C"
+        }
+      ],
+      "type": 8,
+      "value": "kbd"
+    },
+    {
+      "type": 0,
+      "value": " przerwać program. Następnie możesz wpisać polecenia Pythona, aby MicroPython mógł zostać uruchomiony. To świetny sposób na eksperymentowanie z czymś nowym."
+    }
+  ],
+  "serial-help-ctrl-d": [
+    {
+      "type": 0,
+      "value": "Aby ponownie uruchomić program, użyj"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "klawisz kontrolny"
+        }
+      ],
+      "type": 8,
+      "value": "kbd"
+    },
+    {
+      "type": 0,
+      "value": " +"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "D"
+        }
+      ],
+      "type": 8,
+      "value": "kbd"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "serial-help-intro": [
+    {
+      "type": 0,
+      "value": "Terminal szeregowy pokazuje błędy i inne dane wyjściowe programu działającego na twoim micro:bit. Domyślnie pokazuje najnowszy błąd programu. Rozwiń go, aby zobaczyć wszystkie wyniki."
+    }
+  ],
+  "serial-help-print": [
+    {
+      "type": 0,
+      "value": "Twój program może drukować wiadomości przy użyciu metody"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "wydrukować"
+        }
+      ],
+      "type": 8,
+      "value": "kod"
+    },
+    {
+      "type": 0,
+      "value": " funkcjonować. Spróbuj dodać"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "print('micro:bit jest niesamowity')"
+        }
+      ],
+      "type": 8,
+      "value": "kod"
+    },
+    {
+      "type": 0,
+      "value": " do swojego programu."
+    }
+  ],
+  "serial-help-title": [
+    {
+      "type": 0,
+      "value": "Seryjne wskazówki i porady"
+    }
+  ],
+  "serial-hints-and-tips": [
+    {
+      "type": 0,
+      "value": "Seryjne wskazówki i porady"
+    }
+  ],
+  "serial-menu": [
+    {
+      "type": 0,
+      "value": "Menu seryjne"
+    }
+  ],
+  "serial-ready-to-flash": [
+    {
+      "type": 0,
+      "value": "micro:bit gotowy do flashowania"
+    }
+  ],
+  "serial-running": [
+    {
+      "type": 0,
+      "value": "Działanie…"
+    }
+  ],
+  "serial-terminal": [
+    {
+      "type": 0,
+      "value": "Terminal szeregowy"
+    }
+  ],
+  "setting-allow-editing-third-party": [
+    {
+      "type": 0,
+      "value": "Zezwalaj na edycję modułów innych firm"
+    }
+  ],
+  "setting-allow-editing-third-party-info": [
+    {
+      "type": 0,
+      "value": "Zmiana modułów innych firm może oznaczać, że nie będą działać zgodnie z przeznaczeniem."
+    }
+  ],
+  "settings": [
+    {
+      "type": 0,
+      "value": "Ustawienia"
+    }
+  ],
+  "show-api-documentation": [
+    {
+      "type": 0,
+      "value": "Pokaż dokumentację API"
+    }
+  ],
+  "show-less": [
+    {
+      "type": 0,
+      "value": "Pokaż mniej"
+    }
+  ],
+  "show-less-for": [
+    {
+      "type": 0,
+      "value": "Pokaż mniej dla"
+    },
+    {
+      "type": 1,
+      "value": "przedmiot"
+    }
+  ],
+  "show-more": [
+    {
+      "type": 0,
+      "value": "Pokaż więcej"
+    }
+  ],
+  "show-more-for": [
+    {
+      "type": 0,
+      "value": "Pokaż więcej dla"
+    },
+    {
+      "type": 1,
+      "value": "przedmiot"
+    }
+  ],
+  "sidebar": [
+    {
+      "type": 0,
+      "value": "Pasek boczny"
+    }
+  ],
+  "sidebar-collapse": [
+    {
+      "type": 0,
+      "value": "Zwiń pasek boczny"
+    }
+  ],
+  "sidebar-expand": [
+    {
+      "type": 0,
+      "value": "Rozwiń pasek boczny"
+    }
+  ],
+  "simulator-accelerometer": [
+    {
+      "type": 0,
+      "value": "Akcelerometr"
+    }
+  ],
+  "simulator-actions": [
+    {
+      "type": 0,
+      "value": "Działania symulacyjne"
+    }
+  ],
+  "simulator-button-a": [
+    {
+      "type": 0,
+      "value": "Przycisk A"
+    }
+  ],
+  "simulator-button-b": [
+    {
+      "type": 0,
+      "value": "Przycisk B"
+    }
+  ],
+  "simulator-button-hold-label": [
+    {
+      "type": 0,
+      "value": "Przytrzymaj przycisk"
+    },
+    {
+      "type": 1,
+      "value": "przycisk"
+    }
+  ],
+  "simulator-button-press-label": [
+    {
+      "type": 0,
+      "value": "naciśnij przycisk"
+    },
+    {
+      "type": 1,
+      "value": "przycisk"
+    }
+  ],
+  "simulator-buttons": [
+    {
+      "type": 0,
+      "value": "guziki"
+    }
+  ],
+  "simulator-collapse": [
+    {
+      "type": 0,
+      "value": "Zwiń symulator"
+    }
+  ],
+  "simulator-collapse-module": [
+    {
+      "type": 0,
+      "value": "Zawalić się"
+    },
+    {
+      "type": 1,
+      "value": "tytuł"
+    },
+    {
+      "type": 0,
+      "value": " moduł"
+    }
+  ],
+  "simulator-compass": [
+    {
+      "type": 0,
+      "value": "Kompas"
+    }
+  ],
+  "simulator-compass-heading-one": [
+    {
+      "type": 0,
+      "value": "Nagłówek"
+    }
+  ],
+  "simulator-compass-heading-two": [
+    {
+      "type": 0,
+      "value": "Siła pola magnetycznego"
+    }
+  ],
+  "simulator-data-logging-empty": [
+    {
+      "type": 0,
+      "value": "Brak wpisów w dzienniku."
+    }
+  ],
+  "simulator-data-logging-full": [
+    {
+      "type": 0,
+      "value": "Log pełny"
+    }
+  ],
+  "simulator-data-logging-rows": [
+    {
+      "offset": 0,
+      "options": {
+        "=0": {
+          "value": [
+            {
+              "type": 0,
+              "value": "Nie zarejestrowano żadnych wierszy"
+            }
+          ]
+        },
+        "one": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " wiersz zarejestrowany"
+            }
+          ]
+        },
+        "other": {
+          "value": [
+            {
+              "type": 7
+            },
+            {
+              "type": 0,
+              "value": " wiersze zarejestrowane"
+            }
+          ]
+        }
+      },
+      "pluralType": "cardinal",
+      "type": 6,
+      "value": "liczyć"
+    }
+  ],
+  "simulator-data-logging-save-log": [
+    {
+      "type": 0,
+      "value": "Dziennik zapisu"
+    }
+  ],
+  "simulator-data-logging-truncated": [
+    {
+      "type": 0,
+      "value": "Starsze wiersze nie są wyświetlane"
+    }
+  ],
+  "simulator-expand": [
+    {
+      "type": 0,
+      "value": "Rozwiń symulator"
+    }
+  ],
+  "simulator-expand-module": [
+    {
+      "type": 0,
+      "value": "Zwiększać"
+    },
+    {
+      "type": 1,
+      "value": "tytuł"
+    },
+    {
+      "type": 0,
+      "value": " moduł"
+    }
+  ],
+  "simulator-gesture-3g": [
+    {
+      "type": 0,
+      "value": "3g"
+    }
+  ],
+  "simulator-gesture-6g": [
+    {
+      "type": 0,
+      "value": "6g"
+    }
+  ],
+  "simulator-gesture-8g": [
+    {
+      "type": 0,
+      "value": "8g"
+    }
+  ],
+  "simulator-gesture-down": [
+    {
+      "type": 0,
+      "value": "w dół"
+    }
+  ],
+  "simulator-gesture-face-down": [
+    {
+      "type": 0,
+      "value": "głową w dół"
+    }
+  ],
+  "simulator-gesture-face-up": [
+    {
+      "type": 0,
+      "value": "stawić czoła"
+    }
+  ],
+  "simulator-gesture-freefall": [
+    {
+      "type": 0,
+      "value": "swobodne spadanie"
+    }
+  ],
+  "simulator-gesture-left": [
+    {
+      "type": 0,
+      "value": "lewy"
+    }
+  ],
+  "simulator-gesture-right": [
+    {
+      "type": 0,
+      "value": "Prawidłowy"
+    }
+  ],
+  "simulator-gesture-select": [
+    {
+      "type": 0,
+      "value": "Wybierz gest"
+    }
+  ],
+  "simulator-gesture-send": [
+    {
+      "type": 0,
+      "value": "Wyślij gest"
+    }
+  ],
+  "simulator-gesture-shake": [
+    {
+      "type": 0,
+      "value": "potrząsnąć"
+    }
+  ],
+  "simulator-gesture-up": [
+    {
+      "type": 0,
+      "value": "w górę"
+    }
+  ],
+  "simulator-hide": [
+    {
+      "type": 0,
+      "value": "Ukryj symulator"
+    }
+  ],
+  "simulator-input-hold": [
+    {
+      "type": 0,
+      "value": "Trzymać"
+    }
+  ],
+  "simulator-input-press": [
+    {
+      "type": 0,
+      "value": "Naciskać"
+    }
+  ],
+  "simulator-light-level": [
+    {
+      "type": 0,
+      "value": "Poziom światła"
+    }
+  ],
+  "simulator-log": [
+    {
+      "type": 0,
+      "value": "Dziennik danych"
+    }
+  ],
+  "simulator-loud": [
+    {
+      "type": 0,
+      "value": "Głośny"
+    }
+  ],
+  "simulator-mute": [
+    {
+      "type": 0,
+      "value": "Niemy"
+    }
+  ],
+  "simulator-pin-hold-label": [
+    {
+      "type": 0,
+      "value": "Przytrzymaj szpilkę"
+    },
+    {
+      "type": 1,
+      "value": "szpilka"
+    }
+  ],
+  "simulator-pin-press-label": [
+    {
+      "type": 0,
+      "value": "Naciśnij pinezkę"
+    },
+    {
+      "type": 1,
+      "value": "szpilka"
+    }
+  ],
+  "simulator-pins": [
+    {
+      "type": 0,
+      "value": "Kołki"
+    }
+  ],
+  "simulator-quiet": [
+    {
+      "type": 0,
+      "value": "Cichy"
+    }
+  ],
+  "simulator-radio": [
+    {
+      "type": 0,
+      "value": "Radio"
+    }
+  ],
+  "simulator-radio-code": [
+    {
+      "type": 0,
+      "value": "mikro:bit wysłany:"
+    }
+  ],
+  "simulator-radio-group-notice": [
+    {
+      "type": 0,
+      "value": "Grupa radiowa ustawiona na"
+    },
+    {
+      "type": 1,
+      "value": "numer grupy"
+    }
+  ],
+  "simulator-radio-message": [
+    {
+      "type": 0,
+      "value": "Wiadomość radiowa"
+    }
+  ],
+  "simulator-radio-message-limit-notice": [
+    {
+      "type": 0,
+      "value": "Starsze wiadomości nie są wyświetlane"
+    }
+  ],
+  "simulator-radio-no-messages": [
+    {
+      "type": 0,
+      "value": "Brak wiadomości do wyświetlenia"
+    }
+  ],
+  "simulator-radio-off": [
+    {
+      "type": 0,
+      "value": "Radio jest wyłączone"
+    }
+  ],
+  "simulator-radio-send": [
+    {
+      "type": 0,
+      "value": "Wyślij wiadomość"
+    }
+  ],
+  "simulator-radio-user": [
+    {
+      "type": 0,
+      "value": "Wysłałeś:"
+    }
+  ],
+  "simulator-reference-link": [
+    {
+      "type": 0,
+      "value": "Link do sekcji Odniesienia"
+    }
+  ],
+  "simulator-reset": [
+    {
+      "type": 0,
+      "value": "Resetowanie"
+    }
+  ],
+  "simulator-serial-terminal": [
+    {
+      "type": 0,
+      "value": "Terminal szeregowy symulatora"
+    }
+  ],
+  "simulator-sound-level": [
+    {
+      "type": 0,
+      "value": "Poziom głośności"
+    }
+  ],
+  "simulator-start-simulator": [
+    {
+      "type": 0,
+      "value": "Uruchom symulator"
+    }
+  ],
+  "simulator-stop": [
+    {
+      "type": 0,
+      "value": "Zatrzymaj symulator"
+    }
+  ],
+  "simulator-temperature": [
+    {
+      "type": 0,
+      "value": "Temperatura"
+    }
+  ],
+  "simulator-title": [
+    {
+      "type": 0,
+      "value": "Symulator"
+    }
+  ],
+  "simulator-touch-logo": [
+    {
+      "type": 0,
+      "value": "Dotknij logo"
+    }
+  ],
+  "simulator-unmute": [
+    {
+      "type": 0,
+      "value": "Wyłącz wyciszenie"
+    }
+  ],
+  "software-versions": [
+    {
+      "type": 0,
+      "value": "Wersje oprogramowania"
+    }
+  ],
+  "start-coding-action": [
+    {
+      "type": 0,
+      "value": "Zacznij kodować"
+    }
+  ],
+  "support": [
+    {
+      "type": 0,
+      "value": "Wsparcie"
+    }
+  ],
+  "terms-of-use": [
+    {
+      "type": 0,
+      "value": "Warunki korzystania"
+    }
+  ],
+  "third-party-module-explanation": [
+    {
+      "type": 0,
+      "value": "Ten plik jest modułem innej firmy i nie jest przeznaczony do edycji."
+    }
+  ],
+  "third-party-module-how-to": [
+    {
+      "type": 0,
+      "value": "Zezwalaj na edycję modułów innych firm w"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Ustawienia"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": " zmodyfikować ten moduł."
+    }
+  ],
+  "timeout-error-description": [
+    {
+      "type": 0,
+      "value": "Nie można połączyć się z micro:bit"
+    }
+  ],
+  "timeout-error-title": [
+    {
+      "type": 0,
+      "value": "Przekroczono limit czasu połączenia"
+    }
+  ],
+  "toolkit-error-loading": [
+    {
+      "type": 0,
+      "value": "Wystąpił błąd podczas ładowania zestawu narzędzi."
+    }
+  ],
+  "toolkit-view-documentation": [
+    {
+      "type": 0,
+      "value": "Pogląd"
+    },
+    {
+      "type": 1,
+      "value": "nazwa"
+    },
+    {
+      "type": 0,
+      "value": " dokumentacja"
+    }
+  ],
+  "transfer-hex-message-one": [
+    {
+      "type": 0,
+      "value": "Przeciągnij plik szesnastkowy z pliku"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Folder Pobrane"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " do"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "Napęd MICROBIT"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": "."
+    }
+  ],
+  "transfer-hex-message-two": [
+    {
+      "type": 0,
+      "value": "Możesz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "otwarty"
+        }
+      ],
+      "type": 8,
+      "value": "mocny"
+    },
+    {
+      "type": 0,
+      "value": " plik szesnastkowy później, aby kontynuować edycję."
+    }
+  ],
+  "transfer-hex-title": [
+    {
+      "type": 0,
+      "value": "Przenieś zapisany plik szesnastkowy do micro:bit"
+    }
+  ],
+  "try-again-action": [
+    {
+      "type": 0,
+      "value": "Spróbuj ponownie"
+    }
+  ],
+  "undo": [
+    {
+      "type": 0,
+      "value": "Cofnij"
+    }
+  ],
+  "unexpected-error-description": [
+    {
+      "type": 0,
+      "value": "Spróbuj ponownie lub"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zgłoś prośbę o wsparcie"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    }
+  ],
+  "unexpected-error-title": [
+    {
+      "type": 0,
+      "value": "Spróbuj ponownie lub"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zgłoś prośbę o wsparcie"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    }
+  ],
+  "untitled-project": [
+    {
+      "type": 0,
+      "value": "Projekt bez tytułu"
+    }
+  ],
+  "update-firmware-action": [
+    {
+      "type": 0,
+      "value": "Aktualizacja oprogramowania"
+    }
+  ],
+  "updated-change": [
+    {
+      "type": 0,
+      "value": "Zaktualizowany plik"
+    },
+    {
+      "type": 1,
+      "value": "Zmień nazwę"
+    }
+  ],
+  "visit-dot-org": [
+    {
+      "type": 0,
+      "value": "odwiedź microbit.org (otwiera się w nowej karcie)"
+    }
+  ],
+  "webusb-error-clear-connect-description-1": [
+    {
+      "type": 0,
+      "value": "Do tego urządzenia podłączony jest inny proces."
+    }
+  ],
+  "webusb-error-clear-connect-description-2": [
+    {
+      "type": 0,
+      "value": "Zamknij wszystkie inne karty, które mogą korzystać z WebUSB (np. MakeCode, Python Editor) lub odłącz i ponownie podłącz micro:bit przed ponowną próbą."
+    }
+  ],
+  "webusb-error-clear-connect-title": [
+    {
+      "type": 0,
+      "value": "Nie można zarezerwować interfejsu"
+    }
+  ],
+  "webusb-error-default-title": [
+    {
+      "type": 0,
+      "value": "Błąd USB"
+    }
+  ],
+  "webusb-error-reconnect-microbit-description": [
+    {
+      "type": 0,
+      "value": "Podłącz ponownie micro:bit i spróbuj ponownie."
+    }
+  ],
+  "webusb-error-update-req-description": [
+    {
+      "type": 0,
+      "value": "Musisz"
+    },
+    {
+      "children": [
+        {
+          "type": 0,
+          "value": "zaktualizuj oprogramowanie sprzętowe micro:bit"
+        }
+      ],
+      "type": 8,
+      "value": "połączyć"
+    },
+    {
+      "type": 0,
+      "value": " aby skorzystać z tej funkcji."
+    }
+  ],
+  "webusb-error-update-req-title": [
+    {
+      "type": 0,
+      "value": "Proszę zaktualizować oprogramowanie sprzętowe micro:bit"
+    }
+  ],
+  "webusb-not-supported": [
+    {
+      "type": 0,
+      "value": "Niestety, WebUSB nie jest obsługiwany w tej przeglądarce i zamiast tego Twój program zostanie zapisany na Twoim komputerze. Postępuj zgodnie z instrukcjami na następnym ekranie, aby przenieść go do swojego micro:bit. Zalecamy przeglądarkę Google Chrome lub Microsoft Edge, abyś mógł połączyć się bezpośrednio z micro:bit."
+    }
+  ],
+  "webusb-not-supported-title": [
+    {
+      "type": 0,
+      "value": "Ta przeglądarka nie obsługuje protokołu WebUSB"
+    }
+  ],
+  "webusb-why-use": [
+    {
+      "type": 0,
+      "value": "Dzięki WebUSB możesz zaprogramować micro:bit i połączyć się z konsolą szeregową bezpośrednio z edytora online."
+    }
+  ],
+  "welcome-message": [
+    {
+      "type": 0,
+      "value": "Obejrzyj nasz krótki przewodnik po niektórych kluczowych funkcjach lub od razu zajmij się kodowaniem."
+    }
+  ],
+  "welcome-title": [
+    {
+      "type": 0,
+      "value": "Witamy w edytorze Pythona micro:bit"
+    }
+  ],
+  "zoom-in-action": [
+    {
+      "type": 0,
+      "value": "Zbliżenie"
+    }
+  ],
+  "zoom-out-action": [
+    {
+      "type": 0,
+      "value": "Pomniejsz"
+    }
+  ]
+}
