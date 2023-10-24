@@ -344,7 +344,7 @@
   "connect-action": [
     {
       "type": 0,
-      "value": "Łączyć"
+      "value": "Połącz"
     }
   ],
   "connect-cable-title": [
@@ -970,11 +970,11 @@
       "children": [
         {
           "type": 0,
-          "value": "Ratować"
+          "value": "Zapisz"
         }
       ],
       "type": 8,
-      "value": "mocny"
+      "value": "strong"
     },
     {
       "type": 0,
@@ -984,11 +984,11 @@
       "children": [
         {
           "type": 0,
-          "value": "otwarty"
+          "value": "Otwórz"
         }
       ],
       "type": 8,
-      "value": "mocny"
+      "value": "strong"
     },
     {
       "type": 0,
@@ -1002,7 +1002,7 @@
         }
       ],
       "type": 8,
-      "value": "mocny"
+      "value": "strong"
     },
     {
       "type": 0,
@@ -1046,7 +1046,7 @@
         }
       ],
       "type": 8,
-      "value": "kod"
+      "value": "code"
     },
     {
       "type": 0,
@@ -1952,19 +1952,19 @@
   "simulator-gesture-down": [
     {
       "type": 0,
-      "value": "w dół"
+      "value": "dół"
     }
   ],
   "simulator-gesture-face-down": [
     {
       "type": 0,
-      "value": "głową w dół"
+      "value": "twarzą w dół"
     }
   ],
   "simulator-gesture-face-up": [
     {
       "type": 0,
-      "value": "stawić czoła"
+      "value": "twarzą w górę"
     }
   ],
   "simulator-gesture-freefall": [
@@ -1976,13 +1976,13 @@
   "simulator-gesture-left": [
     {
       "type": 0,
-      "value": "lewy"
+      "value": "lewo"
     }
   ],
   "simulator-gesture-right": [
     {
       "type": 0,
-      "value": "Prawidłowy"
+      "value": "prawo"
     }
   ],
   "simulator-gesture-select": [
@@ -2006,7 +2006,7 @@
   "simulator-gesture-up": [
     {
       "type": 0,
-      "value": "w górę"
+      "value": "góra"
     }
   ],
   "simulator-hide": [
