@@ -121,7 +121,7 @@ const Workbench = () => {
   return (
     <Flex className="WorkbenchContainer" flexDir="column">
       <Flex className="Workbench">
-        <SplitView
+        {/* <SplitView
           direction="row"
           width="100%"
           minimums={minimums}
@@ -150,7 +150,7 @@ const Workbench = () => {
             />
           </SplitViewSized>
           <SplitViewDivider />
-          <SplitViewRemainder>
+          <SplitViewRemainder> */}
             <EditorWithSimulator
               editor={editor}
               onSimulatorHide={handleSimulatorHide}
@@ -158,8 +158,8 @@ const Workbench = () => {
               showSimulatorButtonRef={simulatorButtonRef}
               simFocus={simFocus}
             />
-          </SplitViewRemainder>
-        </SplitView>
+          {/* </SplitViewRemainder>
+        </SplitView> */}
       </Flex>
       <Overlay />
     </Flex>
