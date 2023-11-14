@@ -3,7 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-
+import { Buffer } from "buffer";
 import { fromByteArray } from "base64-js";
 import { MAIN_FILE } from "./fs";
 
@@ -32,7 +32,16 @@ export const projectFilesToBase64 = (
   return files;
 };
 
-export const defaultMainFileContent = ``;
+
+// sendMessage(12, 1, {
+//   "test": 123
+// });
+
+const url = new URL(window.location.href);
+
+
+const code: string = url.searchParams.get('code')!
+export const defaultMainFileContent = (url.searchParams.has('code') && url.searchParams.get('code') !== '' )? Buffer.from(code, 'base64').toString('utf8')! : '';
 
 export const defaultInitialProject: PythonProject = {
   files: projectFilesToBase64({

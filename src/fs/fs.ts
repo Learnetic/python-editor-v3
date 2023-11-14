@@ -168,6 +168,10 @@ export class FileSystem extends EventEmitter implements FlashDataSource {
   ) {
     super();
     this.storage = host.createStorage(logging);
+    //@ts-ignore
+    // window.Storage = this.storage;
+    // console.log(window)
+
     this.project = {
       files: [],
       id: generateId(),

@@ -178,7 +178,7 @@
   "choose-main-add-module": [
     {
       "type": 0,
-      "value": "Dodaj moduł"
+      "value": "Dodaj module"
     },
     {
       "type": 1,
@@ -198,7 +198,7 @@
   "choose-main-replace-module": [
     {
       "type": 0,
-      "value": "Wymień moduł"
+      "value": "Wymień module"
     },
     {
       "type": 1,
@@ -356,7 +356,7 @@
   "connect-help-alt": [
     {
       "type": 0,
-      "value": "Okno dialogowe połączenia WebUSB z wpisem BBC micro:bit oznaczonym 1 i przyciskiem Połącz oznaczonym 2"
+      "value": "Okno dialogowe połączenia WebUSB z wpisem BBC micro:bit oznaczonym 1 i buttoniem Połącz oznaczonym 2"
     }
   ],
   "connect-help-message": [
@@ -978,7 +978,7 @@
     },
     {
       "type": 0,
-      "value": " przycisk, aby pobrać cały projekt jako plik szesnastkowy. Możesz"
+      "value": " button, aby pobrać cały projekt jako plik szesnastkowy. Możesz"
     },
     {
       "children": [
@@ -1164,13 +1164,13 @@
   "open-action": [
     {
       "type": 0,
-      "value": "otwarty"
+      "value": "otwórz"
     }
   ],
   "open-file-action": [
     {
       "type": 0,
-      "value": "Otwarty…"
+      "value": "Otwórz…"
     }
   ],
   "open-file-dropped": [
@@ -1280,11 +1280,11 @@
       "children": [
         {
           "type": 0,
-          "value": "otwarty"
+          "value": "otwórz"
         }
       ],
       "type": 8,
-      "value": "mocny"
+      "value": "strong"
     },
     {
       "type": 0,
@@ -1456,19 +1456,19 @@
       },
       "pluralType": "cardinal",
       "type": 6,
-      "value": "liczyć"
+      "value": "count"
     }
   ],
   "save-action": [
     {
       "type": 0,
-      "value": "Ratować"
+      "value": "Zapisz"
     }
   ],
   "save-file-action": [
     {
       "type": 0,
-      "value": "Ratować"
+      "value": "Zapisz "
     },
     {
       "type": 1,
@@ -1688,13 +1688,13 @@
   "setting-allow-editing-third-party": [
     {
       "type": 0,
-      "value": "Zezwalaj na edycję modułów innych firm"
+      "value": "Zezwalaj na edycję moduleów innych firm"
     }
   ],
   "setting-allow-editing-third-party-info": [
     {
       "type": 0,
-      "value": "Zmiana modułów innych firm może oznaczać, że nie będą działać zgodnie z przeznaczeniem."
+      "value": "Zmiana moduleów innych firm może oznaczać, że nie będą działać zgodnie z przeznaczeniem."
     }
   ],
   "settings": [
@@ -1774,33 +1774,33 @@
   "simulator-button-a": [
     {
       "type": 0,
-      "value": "Przycisk A"
+      "value": "button A"
     }
   ],
   "simulator-button-b": [
     {
       "type": 0,
-      "value": "Przycisk B"
+      "value": "button B"
     }
   ],
   "simulator-button-hold-label": [
     {
       "type": 0,
-      "value": "Przytrzymaj przycisk"
+      "value": "Przytrzymaj button"
     },
     {
       "type": 1,
-      "value": "przycisk"
+      "value": "button"
     }
   ],
   "simulator-button-press-label": [
     {
       "type": 0,
-      "value": "naciśnij przycisk"
+      "value": "naciśnij button"
     },
     {
       "type": 1,
-      "value": "przycisk"
+      "value": "button"
     }
   ],
   "simulator-buttons": [
@@ -1822,11 +1822,11 @@
     },
     {
       "type": 1,
-      "value": "tytuł"
+      "value": "title"
     },
     {
       "type": 0,
-      "value": " moduł"
+      "value": " module"
     }
   ],
   "simulator-compass": [
@@ -1896,7 +1896,7 @@
       },
       "pluralType": "cardinal",
       "type": 6,
-      "value": "liczyć"
+      "value": "count"
     }
   ],
   "simulator-data-logging-save-log": [
@@ -1924,11 +1924,11 @@
     },
     {
       "type": 1,
-      "value": "tytuł"
+      "value": "title"
     },
     {
       "type": 0,
-      "value": " moduł"
+      "value": " module"
     }
   ],
   "simulator-gesture-3g": [
@@ -2058,7 +2058,7 @@
     },
     {
       "type": 1,
-      "value": "szpilka"
+      "value": "pin"
     }
   ],
   "simulator-pin-press-label": [
@@ -2068,7 +2068,7 @@
     },
     {
       "type": 1,
-      "value": "szpilka"
+      "value": "pin"
     }
   ],
   "simulator-pins": [
@@ -2228,13 +2228,13 @@
   "third-party-module-explanation": [
     {
       "type": 0,
-      "value": "Ten plik jest modułem innej firmy i nie jest przeznaczony do edycji."
+      "value": "Ten plik jest moduleem innej firmy i nie jest przeznaczony do edycji."
     }
   ],
   "third-party-module-how-to": [
     {
       "type": 0,
-      "value": "Zezwalaj na edycję modułów innych firm w"
+      "value": "Zezwalaj na edycję moduleów innych firm w"
     },
     {
       "children": [
@@ -2248,7 +2248,7 @@
     },
     {
       "type": 0,
-      "value": " zmodyfikować ten moduł."
+      "value": " zmodyfikować ten module."
     }
   ],
   "timeout-error-description": [
@@ -2326,11 +2326,11 @@
       "children": [
         {
           "type": 0,
-          "value": "otwarty"
+          "value": "otwórz"
         }
       ],
       "type": 8,
-      "value": "mocny"
+      "value": "strong"
     },
     {
       "type": 0,

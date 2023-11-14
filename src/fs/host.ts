@@ -46,6 +46,9 @@ export class DefaultHost implements Host {
   constructor(private url: string = "") {}
 
   createStorage(logging: Logging): FSStorage {
+
+    //@ts-ignore
+    // window.storage = SessionStorageFSStorage
     return new SplitStrategyStorage(
       new InMemoryFSStorage(undefined),
       SessionStorageFSStorage.create(),

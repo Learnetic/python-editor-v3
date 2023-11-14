@@ -91,6 +91,7 @@ export const project = "ajwvhvgo";
 export const dataset = flags.cmsPreview ? "apps-preview" : "apps";
 
 const queryUrl = (query: string): string => {
+  return ``;
   return `https://${project}.apicdn.sanity.io/v1/data/query/${dataset}?query=${encodeURIComponent(
     query
   )}`;

@@ -117,11 +117,18 @@ export class SessionStorageFSStorage implements FSStorage {
         return undefined;
       }
     };
-    const storage = sessionStorageIfPossible();
+    // const storage = sessionStorageIfPossible();
+    const storage = undefined;
+
+
+
     return storage ? new SessionStorageFSStorage(storage) : undefined;
   }
 
-  constructor(private storage: Storage) {}
+  constructor(private storage: Storage) {
+    //@ts-ignore
+    window.storageLNC = storage;
+  }
 
   async ls() {
     return Object.keys(this.storage)
