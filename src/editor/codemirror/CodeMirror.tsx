@@ -40,6 +40,7 @@ import { languageServer } from "./language-server/view";
 import { lintGutter } from "./lint/lint";
 import { codeStructure } from "./structure-highlighting";
 import themeExtensions from "./themeExtensions";
+import {MauthorCommunication} from "../../MauthorCommunication";
 
 interface CodeMirrorProps {
   className?: string;
@@ -101,10 +102,14 @@ const CodeMirror = ({
   );
 
   useEffect(() => {
+
+    const mAComunnication = MauthorCommunication.getInstance();
+
     const initializing = !viewRef.current;
     if (initializing) {
       const notify = EditorView.updateListener.of((update) => {
         if (update.docChanged) {
+          mAComunnication.setContent(update.state.sliceDoc(0));
           onChange(update.state.sliceDoc(0));
           setEditorInfo({
             undo: undoDepth(view.state),
@@ -153,6 +158,25 @@ const CodeMirror = ({
         state,
         parent: elementRef.current!,
       });
+
+      mAComunnication.onTextChange(() => {
+        view.dispatch({
+          changes: {from: 0, to: view.state.doc.toString().length, insert: mAComunnication.getContent()}
+        })
+      })
+
+      mAComunnication.onReset(() => {
+        view.dispatch({
+          changes: {from: 0, to: view.state.doc.toString().length, insert: mAComunnication.getContent()}
+        })
+      })
+
+      mAComunnication.onEditorInit((initCode) => {
+        view.dispatch({
+          changes: {from: 0, to: view.state.doc.toString().length, insert: initCode}
+        })
+      })
+
 
       viewRef.current = view;
       setActiveEditor(new EditorActions(view, logging, actionFeedback));

@@ -7,12 +7,21 @@ import React from "react";
 import ReactDOM from "react-dom";
 import App from "./App";
 import reportWebVitals from "./reportWebVitals";
+import {MauthorCommunication} from "./MauthorCommunication";
 
 declare global {
     interface Window {
         eventCode: any;
+        mauthor: any;
     }
 }
+
+
+
+const mAConn = MauthorCommunication.getInstance();
+window.mauthor = mAConn;
+
+mAConn.sendMessage('CUSTOM_EVENT', "EDITOR_READY");
 
 
 ReactDOM.render(
@@ -21,8 +30,6 @@ ReactDOM.render(
     </React.StrictMode>,
     document.getElementById("root")
 );
-
-console.log(window)
 
 // If you want to start measuring performance in your app, pass a function
 // to log results (for example: reportWebVitals(console.log))

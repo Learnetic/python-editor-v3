@@ -47,7 +47,6 @@ interface TranslationProviderProps {
 const TranslationProvider = ({ children }: TranslationProviderProps) => {
   const [{ languageId }] = useSettings();
   // If the messages are for a different language (or missing) then reload them
-  console.log(languageId);
   const [messages, setMessages] = useState<Messages | undefined>();
   useEffect(() => {
     const load = async () => {
