@@ -16,7 +16,7 @@ import { MockDeviceConnection } from "./device/mock";
 import DocumentationProvider from "./documentation/documentation-hooks";
 import SearchProvider from "./documentation/search/search-hooks";
 import { ActiveEditorProvider } from "./editor/active-editor-hooks";
-import { FileSystem } from "./fs/fs";
+import {FileSystem, VersionAction} from "./fs/fs";
 import { FileSystemProvider } from "./fs/fs-hooks";
 import { createHost } from "./fs/host";
 import { fetchMicroPython } from "./micropython/micropython";
@@ -30,6 +30,8 @@ import SettingsProvider from "./settings/settings";
 import BeforeUnloadDirtyCheck from "./workbench/BeforeUnloadDirtyCheck";
 import { SelectionProvider } from "./workbench/use-selection";
 import Workbench from "./workbench/Workbench";
+import {ensurePythonExtension} from "./project/project-utils";
+import {useProjectActions} from "./project/project-hooks";
 
 const isMockDeviceMode = () =>
   // We use a cookie set from the e2e tests. Avoids having separate test and live builds.
@@ -56,6 +58,9 @@ const App = () => {
       device.dispose();
     };
   }, []);
+
+
+
 
   polyfill({
     forceApply: true,

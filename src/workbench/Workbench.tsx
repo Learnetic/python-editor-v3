@@ -23,8 +23,8 @@ import {SizedMode} from "../common/SplitView/SplitView";
 import {ConnectionStatus} from "../device/device";
 import {useConnectionStatus} from "../device/device-hooks";
 import EditorArea from "../editor/EditorArea";
-import {MAIN_FILE} from "../fs/fs";
-import {useProject} from "../project/project-hooks";
+import {MAIN_FILE, VersionAction} from "../fs/fs";
+import {useProject, useProjectActions} from "../project/project-hooks";
 import ProjectActionBar from "../project/ProjectActionBar";
 import SerialArea from "../serial/SerialArea";
 import {useSettings} from "../settings/settings";
@@ -32,6 +32,8 @@ import Simulator from "../simulator/Simulator";
 import Overlay from "./connect-dialogs/Overlay";
 import SideBar from "./SideBar";
 import {useSelection} from "./use-selection";
+import {ensurePythonExtension} from "../project/project-utils";
+import LCD from "../settings/additionalLibs/LCD";
 
 const minimums: [number, number] = [380, 580];
 const simulatorMinimums: [number, number] = [275, 0];
@@ -49,6 +51,24 @@ const Workbench = () => {
         },
         [setSelection]
     );
+    const actions = useProjectActions();
+
+
+    useEffect(() => {
+        const addLib = (libName: string) => {
+            const filename = ensurePythonExtension(libName)
+            actions.fs.write(
+                filename,
+                LCD,
+                VersionAction.INCREMENT
+            ).then((data) => {
+            }) ;
+        }
+
+        addLib('LCD');
+
+    }, []);
+
     useEffect(() => {
         // No file yet or selected file deleted? Default it.
         if (
@@ -138,36 +158,36 @@ const Workbench = () => {
     return (
         <Flex className="WorkbenchContainer" flexDir="column">
             <Flex className="Workbench">
-                {/* <SplitView
-          direction="row"
-          width="100%"
-          minimums={minimums}
-          initialSize={Math.min(
-            700,
-            Math.max(
-              minimums[0],
-              Math.floor(window.innerWidth * sidebarToWidthRatio)
-            )
-          )}
-          compactSize={86}
-          mode={sidebarShown ? "open" : "compact"}
-        >
-          <SplitViewSized>
-            <SideBar
-              as="section"
-              aria-label={intl.formatMessage({ id: "sidebar" })}
-              selectedFile={selection.file}
-              onSelectedFileChanged={setSelectedFile}
-              flex="1 1 100%"
-              shown={sidebarShown}
-              tabIndex={tabIndex}
-              onTabIndexChange={setTabIndex}
-              onSidebarCollapse={handleSidebarCollapse}
-              onSidebarExpand={handleSidebarExpand}
-            />
-          </SplitViewSized>
-          <SplitViewDivider />
-          <SplitViewRemainder> */}
+        {/*         <SplitView*/}
+        {/*  direction="row"*/}
+        {/*  width="100%"*/}
+        {/*  minimums={minimums}*/}
+        {/*  initialSize={Math.min(*/}
+        {/*    700,*/}
+        {/*    Math.max(*/}
+        {/*      minimums[0],*/}
+        {/*      Math.floor(window.innerWidth * sidebarToWidthRatio)*/}
+        {/*    )*/}
+        {/*  )}*/}
+        {/*  compactSize={86}*/}
+        {/*  mode={sidebarShown ? "open" : "compact"}*/}
+        {/*>*/}
+          {/*<SplitViewSized>*/}
+          {/*  <SideBar*/}
+          {/*    as="section"*/}
+          {/*    aria-label={intl.formatMessage({ id: "sidebar" })}*/}
+          {/*    selectedFile={selection.file}*/}
+          {/*    onSelectedFileChanged={setSelectedFile}*/}
+          {/*    flex="1 1 100%"*/}
+          {/*    shown={sidebarShown}*/}
+          {/*    tabIndex={tabIndex}*/}
+          {/*    onTabIndexChange={setTabIndex}*/}
+          {/*    onSidebarCollapse={handleSidebarCollapse}*/}
+          {/*    onSidebarExpand={handleSidebarExpand}*/}
+          {/*  />*/}
+          {/*</SplitViewSized>*/}
+          {/*<SplitViewDivider />*/}
+          {/*<SplitViewRemainder>*/}
                 <EditorWithSimulator
                     editor={editor}
                     onSimulatorHide={handleSimulatorHide}
@@ -175,8 +195,8 @@ const Workbench = () => {
                     showSimulatorButtonRef={simulatorButtonRef}
                     simFocus={simFocus}
                 />
-                {/* </SplitViewRemainder>
-        </SplitView> */}
+                 {/*</SplitViewRemainder>*/}
+        {/*</SplitView>*/}
             </Flex>
             <Overlay/>
         </Flex>

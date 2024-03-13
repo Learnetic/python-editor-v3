@@ -95,7 +95,7 @@ interface ProjectStatistics extends Statistics {
  */
 export class ProjectActions {
   constructor(
-    private fs: FileSystem,
+    public fs: FileSystem,
     private device: DeviceConnection,
     private actionFeedback: ActionFeedback,
     private dialogs: Dialogs,
